@@ -6,7 +6,7 @@ Just copy xorg.conf.d files to /usr/share/X11/
 
 ==========================================================================================
 
-If you find trackpint mouse glitchy then set it to flat:
+#If you find trackpint mouse glitchy then set it to flat:
 
 nano ~/.profile
 
@@ -49,7 +49,12 @@ computer@example $ xinput list
     
     
 =================================================================================================
-If you find mouse sensitivity very slow, use mouse and touchpad on settings or use this command below and put it in ~/.profile:
+
+
+
+
+
+#If you find mouse sensitivity very slow, use mouse and touchpad on settings or use this command below and put it in ~/.profile:
 
 xinput --set-prop 12 'libinput Accel Speed' (your speed) example:
 
