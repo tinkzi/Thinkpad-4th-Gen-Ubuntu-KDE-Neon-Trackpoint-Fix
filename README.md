@@ -12,8 +12,13 @@ nano ~/.profile
 
 Add the following line at the bottom of the text file.
 
-xinput --set-prop (xinput ID) 'libinput Accel Profile Enabled' 0, 1
-Use xinput list on terminal to get your trackpoint number, in my case id is 12 , example: 
+xinput --set-prop (xinput ID) 'libinput Accel Profile Enabled' 0, 1.
+
+
+
+
+
+Use xinput list on terminal to get your trackpoint number, in my case id is 12 , example
 
 
 
