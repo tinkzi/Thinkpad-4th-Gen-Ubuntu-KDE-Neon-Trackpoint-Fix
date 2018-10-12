@@ -15,7 +15,7 @@ Add the following line at the bottom of the text file.
 xinput --set-prop (xinput ID) 'libinput Accel Profile Enabled' 0, 1
 Use xinput list on terminal to get your trackpoint number, in my case id is 12 , example: 
 
-$ xinput list
+ xinput list
 ⎡ Virtual core pointer                          id=2    [master pointer  (3)]
 ⎜   ↳ Virtual core XTEST pointer                id=4    [slave  pointer  (2)]
 ⎜   ↳ SynPS/2 Synaptics TouchPad                id=11   [slave  pointer  (2)]
