@@ -4,7 +4,7 @@
 Trackpoint mouse fix for my Thinkpad t540p and x240 on ubuntu 16.04(and flavors) and KDE Neon.
 Just copy xorg.conf.d files to /usr/share/X11/
 
-===============================================================================
+==========================================================================================
 
 If you find trackpint mouse glitchy then set it to flat:
 
@@ -24,6 +24,12 @@ Use xinput list on terminal to get your trackpoint number, in my case id is 12 ,
 
 
 computer@example $ xinput list
+
+
+
+
+
+
  Virtual core pointer                          id=2    [master pointer  (3)]
   ↳ Virtual core XTEST pointer                id=4    [slave  pointer  (2)]
    ↳ SynPS/2 Synaptics TouchPad                id=11   [slave  pointer  (2)]
@@ -42,8 +48,7 @@ computer@example $ xinput list
     
     
     
-=================================================================================================================
-
+=================================================================================================
 If you find mouse sensitivity very slow, use mouse and touchpad on settings or use this command below and put it in ~/.profile:
 
 xinput --set-prop 12 'libinput Accel Speed' (your speed) example:
